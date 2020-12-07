@@ -215,9 +215,11 @@ span.onclick = function() {
 
 tickupdate.onclick = function() {
 	var newval=document.getElementById('updateinput').value;
+	if(newval.length>0){
 	pnodetemp.querySelector('span').innerHTML=newval
-  modal.style.display = "none";
   update(tempitem,newval);
+	}
+	modal.style.display = "none";
 }
 
 window.onclick = function(event) {
