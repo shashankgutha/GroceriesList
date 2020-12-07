@@ -3,7 +3,6 @@ var login_button = document.getElementById("login");
 var logout_button = document.getElementById("logout");
 var input = document.getElementById("userinput");
 var ul = document.querySelector("ul");
-const localStorageAppData = JSON.parse(localStorage.getItem("appData"));
 var lis = document.querySelectorAll("li");
 var deleteButton;
 var updateButton;
